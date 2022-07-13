@@ -1,40 +1,38 @@
-/* Type your code here */
 html {
-	background-image: url("./assets/background-image1.png");
+	background-image: url("./images/background-image1.png");
 
 	background-repeat: no-repeat;
 	margin-left: 3%;
 	background-size: 100%;
-	font-family: 'Edu VIC WA NT Beginner', cursive;
-	font-family: 'Roboto', sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 table{
-	margin-top: 2%;
-	width: 60%;
-	background-color: white;
-	-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-	box-shadow: 1px 2px 1px rgba(0,0,0,.5);
+	margin-top: 3%;
+	width: 62%;
+	background-color: rgb(255, 255, 255);
+	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
 
 }
 
 .hdg1 {
 	font-weight: bold;
-	font-size: 300%;
-	text-shadow: 0px 3px 5px grey;
+	font-size: 350%;
+	text-shadow: 0px 3px 5px rgb(122, 122, 122);
 }
 
 .hdg2 {
 	font-weight: bold;
-	color: rgb(117, 116, 116);
+	color: rgb(125, 124, 124);
 	font-size: 23px;
 }
 
 td, th {
-	padding: 5px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding: 6px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	
 
 }
@@ -46,40 +44,40 @@ td, th {
 
 .data1 {
 	text-align: right;
-	width: 5px;
-	padding-right: 10px;
+	width: 6px;
+	padding-right: 12px;
 }
 
 .data2 {
-	color: grey;
+	color: rgb(131, 131, 131);
 }
 
 .data3 {
 	text-align: left;
-	width: 10px;
+	width: 12px;
 	font-weight: bold;
 }
 
 .heading {
-	background-color: orangered;
-	color: white;
+	background-color: rgb(243, 72, 9);
+	color: rgb(255, 255, 255);
 }
 
 .name {
-	color: rgb(78, 78, 197);
+	color: rgb(91, 91, 219);
 	font-weight: 600;
 	cursor: pointer;
 }
 
 .end {
 	text-align: right;
-	padding-right: 8px;
+	padding-right: 10px;
 }
 
 .logo {
 	display: flex;
 	justify-content: right;
-	margin-right: 5%;
+	margin-right: 6%;
 }
 
 .hdg_main {
@@ -87,14 +85,14 @@ td, th {
 }
 
 .footer {
-	margin-top: 2%;
+	margin-top: 4%;
 }
 
 .popup {
 	visibility: hidden;
 	position: absolute;
 	top: 0%;
-	left: 20%;
+	left: 25%;
 	transform: translate(-50%,-50%) scale(0.1%);
 	text-align: center;
 	transition: transition 0.4s,top 0.4s;
@@ -174,6 +172,3 @@ td, th {
 	left: 35%;
 	transform: translate(-50%,-50%);
 }
-
-
-
