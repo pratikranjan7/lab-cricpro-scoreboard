@@ -1,7 +1,6 @@
-
 function openpop(value) {
     let popup = document.getElementById("popup")
-    document.getElementById("info").innerHTML="<img src='./assets/"+value+"' alt='"+value+"'></img>"
+    document.getElementById("info").innerHTML="<img src='./images/"+value+"' alt='"+value+"'></img>"
     value = value.split('')
     let place = value.indexOf(".")
     value.splice(place,1)
